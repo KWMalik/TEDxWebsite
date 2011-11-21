@@ -1,0 +1,63 @@
+/* @group General Containers */ 
+#container {margin: 0 auto} 
+.innerWrapper {margin: 0 auto;}
+.outerWrapper {width: 100%;float: left;background: url(../images/moduleTop.png) repeat-x;margin-left: 2px;display: inline;}
+.outerWrapperNone {width: 100%;float: left;margin-bottom: 50px;display: inline;}
+#midCol_fullWidth {
+padding: 20px 0 20px;
+padding-top: 20px;
+padding-right: 0px;
+padding-bottom: 20px;
+padding-left: 0px;
+clear: both;
+}
+
+.article_row {
+clear: both;
+width: 100%;
+border-bottom: 1px solid #EEE;
+float: left;
+padding: 8px 0 20px;
+margin-bottom: 20px;
+}
+
+a, a:link {
+color: #FF2B06;
+text-decoration: none;
+}
+
+h2,.contentheading {font-size: 2.2em;line-height: 1.5em;margin: 0;padding: 0;font-family: georgia}
+
+p {
+margin: 8px 0;
+margin-top: 8px;
+margin-right: 0px;
+margin-bottom: 8px;
+margin-left: 0px;
+padding:8px;
+padding-top:8px;
+padding-right:0px;
+padding-bottom:8px;
+}
+body {
+font-family: Helvetica, Arial, sans-serif, Verdana;
+font-size: 89%;
+line-height: 1.8em;
+color: #444;
+}
+
+img[width=180] {
+width: 180px;
+}
+
+h2,.contentheading {font-size: 2.2em;line-height: 1.5em;margin: 0;padding: 0;font-family: georgia}
+h2{
+	font-family: georgia;
+}
+img { border:1px solid #DDDDDD;float:left;margin-right:20px;padding:4px;} 
+/* @group Frontpage Columns */
+.column1.cols2 {width: 48%;float: left}
+.column2.cols2 {width: 48%;float:right}
+.column1.cols3,.column2.cols3 {width: 31%;float: left;margin-right: 2%;}
+.column3.cols3 {width: 31%;float:right}
+.article_row {clear: both;width: 100%;border-bottom: 1px solid #eee;float: left;padding: 8px 0 20px;margin-bottom: 20px;}
